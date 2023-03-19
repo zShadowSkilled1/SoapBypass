@@ -1,8 +1,7 @@
 --[[Made by zShadowSkilled :D]]
 
 
-wait(game.Workspace)
-wait(game.Players)
+wait(1)
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
