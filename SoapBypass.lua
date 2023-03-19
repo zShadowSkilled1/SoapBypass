@@ -44,7 +44,7 @@ elseif Method == "Register" then
         if type(v) == "function" then
             local GetFuncInfo = getinfo(v)
 
-            if GetFuncInfo.Name == "kick" then
+            if GetFuncInfo.name == "kick" then
                 hookfunction(GetFuncInfo.func,function(...) return nil end)     
             end
         end
