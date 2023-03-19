@@ -9,4 +9,4 @@ Automatic - Let the script choose the best method for the game you're playing
 
 local Method = "Automatic"
 
-local SoapBypass = loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/SoapBypass/main/SoapBypass.lua"))()zgetgenv().Method = Method
+local SoapBypass = loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/SoapBypass/main/SoapBypass.lua"))()getgenv().Method = Method
