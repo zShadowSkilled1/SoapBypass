@@ -7,6 +7,6 @@ BlockRemote - If the anticheat use a remote, then block it
 Automatic - Let the script choose the best method for the game you're playing
 ]]
 
-getgenv().Method = "Automatic"
+local Method = "Automatic"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/SoapBypass/main/SoapBypass.lua"))()
+local SoapBypass = loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/SoapBypass/main/SoapBypass.lua"))()zgetgenv().Method = Method
