@@ -1,8 +1,8 @@
 --[[Made by zShadowSkilled :D]]
 
 
-wait(game:FindFirstChild(Workspace))
-wait(game:FindFirstChild(Players))
+wait(game.Workspace)
+wait(game.Players)
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
