@@ -7,7 +7,7 @@ KickHook - Reccomanded if the Register method don't work, work in many games**
 
 IndexHook - Work with local anticheats, and most of the games, cause it locally spoof your walkseepd**
 
-BlockRemote - Only work with the anticheat that use RemotesEvents, it won't work if anticheat don't use remote**
+**BlockRemote - Only work with the anticheat that use RemotesEvents, it won't work if anticheat don't use remote**
 
 
 == Others Modes ==
