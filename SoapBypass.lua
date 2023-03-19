@@ -9,8 +9,6 @@ local Character = Player.Character
 local Humanoid = Character.Humanoid
 local remote = game.ReplicatedStorage:FindFirstChild("AC") or game.ReplicatedStorage:FindFirstChild("ACV2") or game.ReplicatedStorage:FindFirstChild("ACheat") or game.ReplicatedStorage:FindFirstChild("Anticheat") or game.ReplicatedStorage:FindFirstChild("AntiCheat")
 local Registery = getreg()
-
-getgenv().Method
 local Old
 
 if Method == "Automatic" then
