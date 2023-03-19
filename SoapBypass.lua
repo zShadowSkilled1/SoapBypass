@@ -1,7 +1,7 @@
 --[[Made by zShadowSkilled :D]]
 
 
-wait(game:IsLoaded())
+wait(game:IsLoaded)
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
@@ -16,6 +16,10 @@ local Old
 if Method == "Automatic" then
     if game.PlaceId == 6872265039 then
         Method = "Character"
+    elseif game.PlaceId == 6516141723 or game.PlaceId == 6839171747 then
+        Method = IndexHook
+    elseif game.PlaceId == 11606818992 then
+        Method = "BlockRemote"
     end
 end
 
@@ -56,7 +60,7 @@ elseif Method == "KickHook" then
     end)
 elseif Method == "IndexHook" then
     Old = hookmetamethod(game,"__index",function(self,key)
-        if self == Humanoid and key == "WalkSpeed" then
+        if self == Humanoid and key == "WalkSpeed" or key == "JumpPower" then
             return 0
         end
         return Old(self,key)
