@@ -1,4 +1,17 @@
---[[Made by zShadowSkilled :D]]
+--[[Made by zShadowSkilled :D
+
+Methods : 
+Character - Good for bedwars, prevent the anticheat to detect any suspicious action
+Register - Good for Tower Of Hell and the anticheats that kick, only recomanded if others methods don't work
+KickHook - Prevent any script/anticheat from kicking you
+IndexHook - Spoof your walkspeed to 0
+BlockRemote - If the anticheat use a remote, then block it
+
+==Others Modes==
+
+Automatic - Let the script choose the best method for the game you're playing
+
+]]
 
 
 wait(game:IsLoaded())
@@ -7,7 +20,7 @@ local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local Character = Player.Character
 local Humanoid = Character.Humanoid
-local remote = game.ReplicatedStorage:FindFirstChild("AC") or game.ReplicatedStorage:FindFirstChild("ACV2") or game.ReplicatedStorage:FindFirstChild("ACheat") or game.ReplicatedStorage:FindFirstChild("Anticheat") or game.ReplicatedStorage:FindFirstChild("AntiCheat")
+local remote = game.ReplicatedStorage:FindFirstChild("AC") or game.ReplicatedStorage:FindFirstChild("ACV2") or game.ReplicatedStorage:FindFirstChild("ACheat") or game.ReplicatedStorage:FindFirstChild("Anticheat") or game.ReplicatedStorage:FindFirstChild("AntiCheat") or game.ReplicatedStorage:FindFirstChild(Player.Name) or game.ReplicatedStorage:FindFirstChild(Player.Name.."1")
 local Registery = getreg()
 
 local Method = getgenv().Method
