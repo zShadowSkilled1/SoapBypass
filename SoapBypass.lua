@@ -1,7 +1,7 @@
 --[[Made by zShadowSkilled :D]]
 
 
-wait(1)
+wait(game:IsLoaded())
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
