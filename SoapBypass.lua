@@ -1,7 +1,8 @@
 --[[Made by zShadowSkilled :D]]
 
 
-wait(game:IsLoaded())
+wait(game:FindFirstChild(Workspace))
+wait(game:FindFirstChild(Players))
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
